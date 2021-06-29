@@ -5,21 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css"> 
+    <link rel="stylesheet" href="/style.css">
     <title>Marcihuan - Website</title>
 </head>
 
 <body>
-    <header class="main-header">
-        <nav class="main-nav">
+    <header class="dos-navs">
+        <nav class="escritorio-nav">
             <img class="img-logo-nav" src="/img/IsoLogotipo.png" alt="logo-nav">
-            <ul class="lista-contenedor">
+            <ul class="lista-contenedor-escritorio">
                 <li class="item-contenedor"><a href="#home">Home</a></li>
                 <li class="item-contenedor"><a href="#nuestros-servicios">Nuestros Servicios</a></li>
                 <li class="item-contenedor"><a href="#quienes-somos">Quiénes somos</a></li>
                 <li class="item-contenedor"><a href="#integrantes">Integrantes</a></li>
             </ul>
         </nav>
+
+        <div class="mobile-menu">
+            <div class="mobile-menu-logo">
+                <input id="burger" type="checkbox" class="custom-checkbox" />
+                <label for="burger" class="label-burger">
+                    <img src="/img/IsoLogotipo.png" alt="logo-mobile" class="logo-mobile">
+                    <div class="container-burger">
+                        <div class="linea linea-top"></div>
+                        <div class="linea linea-med"></div>
+                        <div class="linea linea-low"></div>
+                    </div>
+                </label>
+
+                <ul class="menu-desplazable">
+                    <li class="menu-desplazable__item"><a href="#home">Home</a></li>
+                    <li class="menu-desplazable__item"><a href="#nuestros-servicios">Nuestros Servicios</a></li>
+                    <li class="menu-desplazable__item"><a href="#quienes-somos">Quiénes somos</a></li>
+                    <li class="menu-desplazable__item"><a href="#integrantes"> Integrantes</a></li>
+                </ul>
+            </div>
+        </div>
+
     </header>
     <main class="main-contenedor">
 
@@ -74,8 +96,10 @@
 
         <footer class="main-footer">
             <h2 class="main-footer-titulo">Contactanos</h2>
-            <a href="https://www.instagram.com/marcihuan/?hl=es-la"><img  class="footer-instagram" src="/img/instagram.png" alt="instagram"></a>
-            <a href="#home"><img class="main-footer-flecha-arriba" src="/img/chevron-flecha-hacia-arriba.png" alt="flecha-arriba"></a>
+            <a href="https://www.instagram.com/marcihuan/?hl=es-la"><img class="footer-instagram"
+                    src="/img/instagram.png" alt="instagram"></a>
+            <a href="#home"><img class="main-footer-flecha-arriba" src="/img/chevron-flecha-hacia-arriba.png"
+                    alt="flecha-arriba"></a>
         </footer>
 
     </main>
