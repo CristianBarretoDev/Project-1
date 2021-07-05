@@ -148,10 +148,6 @@ body {
     padding: 25px;
 }
 
-.section-contenedor-2 {
-    scroll-snap-type: y mandatory;
-}
-
 .section-contenedor-2-titulo {
     font-size: 25px;
     font-family: Hind;
