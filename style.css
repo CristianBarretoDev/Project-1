@@ -1,6 +1,8 @@
 body {
     box-sizing: border-box;
     margin: 0;    
+    color: white;
+    background-color: black;
 }
 
 /* ----- HEADER ------ */
@@ -31,7 +33,6 @@ body {
 }
 
 .menu-desplazable {
-    display: none;
     height: 200px;
     width: 100vw;
     background-color: #000000;
@@ -42,7 +43,7 @@ body {
     padding: 0;
 }
 
-..menu-desplazable__item {
+.menu-desplazable__item {
     padding-left: 10px;
     font-family: sans-serif;
     color: #fff;
@@ -107,8 +108,8 @@ body {
 }
 
 .logo-mobile {
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 30px;
 }
 
 .label-burger {
@@ -134,9 +135,73 @@ body {
 /* ----- main ----- */
 
 .img-logo-home {
-    width: 414px;
+    width: 100%;
+    margin-top: 70px;
 }
 
+/* -----------    section contenedor 2   ---------------*/
+
+.section-contenedor-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.section-contenedor-2 {
+    scroll-snap-type: y mandatory;
+}
+
+.section-contenedor-2-titulo {
+    font-size: 25px;
+    font-family: Hind;
+    margin: 0;
+}
+
+.section-contenedor-2-texto {
+    font-size: 20px;
+    font-family: roboto;
+}
+
+/*----- AQUI IRIA EL SLIDER DE FOTOGRAFIAS ----*/
+
+/*----- AQUI TERMINARIA EL SLIDER DE FOTOGRAFIAS ----*/
+
+.section-contenedor-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 25px; 
+}
+
+.section-contenedor-3-titulo {
+    font-size: 25px;
+    font-family: Hind;
+    margin: 0;
+}
+
+.section-contenedor-3-texto{
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.section-contenedor-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.section-contenedor-4-titulo {
+    font-size: 25px;
+    font-family: Hind;
+    margin: 0;
+}
+
+.section-contenedor-4-texto {
+    font-size: 20px;
+    font-family: roboto;
+}
 
 /* ----- footer ----*/
 
