@@ -199,12 +199,47 @@ body {
     font-family: roboto;
 }
 
+.section-contenedor-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px 25px 25px;
+}
+
+.section-contenedor-5-texto {
+    font-size: 20px;
+    font-family: roboto;
+    margin-top: 0;
+}
+
 /* ----- footer ----*/
 
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+}
+
+.main-footer-titulo {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .footer-instagram {
-    width: 15px;
+    width: 45px;
 }
 
 .main-footer-flecha-arriba {
-    width: 15px;
+    width: 45px;
+    background-color: white;
+    border-radius: 100px;
+    margin-top: 5px;
+}
+
+.llevame-al-inicio {
+    font-size: 15px;
+    margin-top: 30px;
 }
